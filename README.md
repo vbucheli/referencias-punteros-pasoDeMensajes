@@ -47,4 +47,20 @@ int *pagar = &salario;
 cout << *pagar; // Imprime 25000000
 ```
 
-### Paso de Mensajes (Parámetros por Referencia y Punter
+### Paso de Mensajes (Parámetros por Referencia y Punteros)
+```cpp
+Cuenta miCuenta("130705", 100000);
+miUsuario.recibeReferencia(miCuenta);
+cout << miCuenta.getSaldo();
+```
+
+## Licencia
+Este proyecto está bajo la licencia GNU-GPL.
+
+## Autor
+- **Curso FPOO 2023-1**
+- Contacto: victor.bucheli@correounivalle.edu.co
+
+---
+Este README proporciona una visión general clara y estructurada del proyecto, facilitando su comprensión y uso por parte de otros desarrolladores.
+
